@@ -1,0 +1,9 @@
+{
+    "john_doe": {
+        "pass_key": "secret123",
+        "wallet": 500.0,
+        "logs": [
+            "Credited: 500.0 | Time: 2023-10-27 10:00:00"
+        ]
+    }
+}
