@@ -1,38 +1,48 @@
 Student Bank Application 🏦
 
-A generic, command-line interface (CLI) banking application built with Python. This project simulates basic banking operations such as account creation, deposits, withdrawals, and transaction history logging, using a JSON file for data persistence.
+A CLI (Command Line Interface) based banking system built with Python. This application allows users to create accounts, manage their wallet balance, and track transaction history using a local JSON database for persistence.
 
 📋 Features
 
-User Authentication: Secure Sign-up and Login functionality.
+User Authentication:
 
-Data Persistence: All user data and logs are saved to accounts_db.json, ensuring data remains available after closing the program.
+Secure Sign-up (username uniqueness check).
 
-Account Management:
+Login system with password validation.
 
-Deposit: Add funds to your wallet.
+Wallet Management:
 
-Withdraw: Remove funds (with sufficient balance checks).
+Deposit: Add funds to the account.
+
+Withdraw: Remove funds with overdraft protection (checks for sufficient balance).
 
 Check Balance: View current available funds.
 
-Transaction Logs: Detailed "Mini Statement" showing the type of transaction, amount, and timestamp.
+Transaction History:
 
-Input Validation: Prevents negative numbers and non-numeric inputs.
+Maintains a log of all credits and debits with timestamps.
 
-🛠️ Technologies Used
+"Mini Statement" feature to print logs to the console.
+
+Data Persistence:
+
+All user data and logs are saved automatically to accounts_db.json.
+
+Data remains available even after closing and restarting the program.
+
+🛠️ Technology Stack
 
 Language: Python 3.x
 
-Database: JSON (File-based storage)
+Storage: JSON (File Handling)
 
-Libraries: json, os, datetime (Standard Python libraries, no external installs required).
+Modules: os, json, datetime
 
 🚀 Getting Started
 
 Prerequisites
 
-Make sure you have Python installed on your system. You can check this by running:
+Ensure you have Python installed on your machine. You can check this by running:
 
 python --version
 
@@ -41,7 +51,7 @@ Installation
 
 Clone this repository:
 
-git clone [https://github.com/yourusername/student-bank-app.git](https://github.com/yourusername/student-bank-app.git)
+git clone https://github.com/subhammohanty-sys/Bank-Managment-System
 
 
 Navigate to the project directory:
@@ -51,47 +61,30 @@ cd student-bank-app
 
 Usage
 
-Run the script using Python:
+Run the application:
 
 python bank_app.py
 
 
-(Note: Replace bank_app.py with the actual name of your python file)
+
+Follow the on-screen prompts to Register (1) or Login (2).
 
 📂 Project Structure
 
-├── bank_app.py         # Main application source code
+├── bank_app.py         # Main application logic
 ├── accounts_db.json    # Database file (Auto-generated on first run)
-├── README.md           # Project documentation
-└── PROJECT_REPORT.md   # Technical report
-
-
-📸 Screenshots / Usage Example
-
-Main Menu:
-
-1. SIGN UP
-2. LOGIN
-3. QUIT
-
-
-User Dashboard:
-
-1. Deposit Cash
-2. Withdraw Cash
-3. View Balance
-4. Mini Statement
-5. Logout
+├── PROBLEM_STATEMENT.md # Project requirements
+└── README.md           # Documentation
 
 
 🔮 Future Improvements
 
-Implement password hashing (currently stored as plain text) for better security.
+Implement password hashing (currently stored as plain text for simplicity).
 
-Add functionality to transfer money between different users.
+Add an Admin mode to view all users.
 
-Create a GUI using Tkinter or PyQt.
+Implement fund transfers between different users.
 
-📝 License
+🤝 Contributing
 
-This project is open-source and available for educational purposes.
+Contributions are welcome! Please fork the repository and create a pull request.
