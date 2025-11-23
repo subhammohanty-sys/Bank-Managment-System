@@ -79,11 +79,11 @@ Follow the on-screen prompts to Register (1) or Login (2).
 
 🔮 Future Improvements
 
-Implement password hashing (currently stored as plain text for simplicity).
+1. Implement password hashing (currently stored as plain text for simplicity).
 
-Add an Admin mode to view all users.
+2. Add an Admin mode to view all users.
 
-Implement fund transfers between different users.
+3. Implement fund transfers between different users.
 
 🤝 Contributing
 
