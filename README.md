@@ -6,45 +6,45 @@ A CLI (Command Line Interface) based banking system built with Python. This appl
 
 User Authentication:
 
-Secure Sign-up (username uniqueness check).
+- Secure Sign-up (username uniqueness check).
 
-Login system with password validation.
+- Login system with password validation.
 
 Wallet Management:
 
-Deposit: Add funds to the account.
+- Deposit: Add funds to the account.
 
-Withdraw: Remove funds with overdraft protection (checks for sufficient balance).
+- Withdraw: Remove funds with overdraft protection (checks for sufficient balance).
 
-Check Balance: View current available funds.
+- Check Balance: View current available funds.
 
 Transaction History:
 
-Maintains a log of all credits and debits with timestamps.
+1. Maintains a log of all credits and debits with timestamps.
 
-"Mini Statement" feature to print logs to the console.
+2. "Mini Statement" feature to print logs to the console.
 
 Data Persistence:
 
-All user data and logs are saved automatically to accounts_db.json.
+1. All user data and logs are saved automatically to accounts_db.json.
 
-Data remains available even after closing and restarting the program.
+2. Data remains available even after closing and restarting the program.
 
 🛠️ Technology Stack
 
-Language: Python 3.x
+- Language: Python 3.x
 
-Storage: JSON (File Handling)
+- Storage: JSON (File Handling)
 
-Modules: os, json, datetime
+- Modules: os, json, datetime
 
 🚀 Getting Started
 
-Prerequisites
+- Prerequisites
 
-Ensure you have Python installed on your machine. You can check this by running:
+- Ensure you have Python installed on your machine. You can check this by running:
 
-python --version
+  python --version
 
 
 Installation
@@ -56,14 +56,14 @@ git clone https://github.com/subhammohanty-sys/Bank-Managment-System
 
 Navigate to the project directory:
 
-cd student-bank-app
+  cd student-bank-app
 
 
 Usage
 
 Run the application:
 
-python bank_app.py
+  python bank_app.py
 
 
 
